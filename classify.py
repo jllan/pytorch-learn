@@ -44,7 +44,7 @@ net = Net(2, 10, 2)
 print(net)
 
 #优化
-optimizer = torch.optim.SGD(net.parameters(), lr = 0.02)
+optimizer = torch.optim.SGD(net.parameters(), lr=0.02)
 criterion = torch.nn.CrossEntropyLoss() #分类用损失函数 softmax [0.1 0.2 0.7]=1
 
 plt.ion()   # 画图
